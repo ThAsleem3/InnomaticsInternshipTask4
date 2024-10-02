@@ -1,0 +1,278 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    width: fit-content;
+}
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: red;
+    color: white;
+    height:200px;
+    font-size:50px;
+
+
+}
+.top-right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 200px;
+
+}
+p{
+    padding:20px;
+    border: 5px solid white;
+    border-radius: 20px;
+    margin:20px;
+
+}
+.loc{
+    background-color: black;
+}
+.enq{
+    border: none;
+    background-color: none;
+}
+
+.top-left{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    margin:50px;
+    padding-left:150px;
+}
+.second-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 150px 0px 150px;
+}
+.second-top-center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right:250px;
+    text-align: center;
+    font-size: 50px;
+}
+.home{
+    padding:30px;
+    font-size: 50px;
+}
+.paynow{
+    padding:30px;
+    font-size: 50px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+}
+
+.img{
+    margin:30px 0px 0px 0px;
+    border: 5px solid white;
+    border-radius: 25px;
+}
+.org{
+    color: red;
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.para{
+    margin: 50px;
+    padding: 50px;
+}
+.inner_para{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:0px;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    column-gap:30px;
+    font-size:40px;
+    margin-top:50px;
+    padding: 10px;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    column-gap:50px;
+    row-gap: 50px;
+    
+}
+.card1{
+    border: 2px solid lightgrey;
+    border-radius: 25px;
+    padding:20px;
+    margin:30px; 
+}
+.card1:hover{
+    border-bottom: 7px solid red;
+}
+.btn{
+    width: 250px;
+    height: 100px;
+    background-color: red;
+    font-size: 30px;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    margin: 30px;
+}
+h5{
+    color: blue;
+    font-size: 45px;
+}
+.blue{
+    color: blue;
+}
+.logo{
+  text-align: center;
+  padding:50px;
+  margin: 50px;
+  width: 200px;
+  height: 150px;
+}
+.container1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 40px;
+    column-gap: 50px;
+    background-color: black;
+    color: white;
+    
+}
+.cont1_btn{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 250px;
+    height: 100px;
+    width: 250px;
+}
+.cont_card{
+    margin: 50px;
+    padding: 30px;
+    width: 750px;
+    border: 2px solid white;
+}
+.cont1_para{
+    padding: 20px;
+    font-size:40px;
+    border: none;
+    
+}
+.cont{
+    color: red;
+    align-items: center;
+  padding-left: 1150px;
+    font-size: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.cont1_heading{
+    color: white;
+    margin-top: 40px;
+    margin-left:60px;
+    align-items: center;
+}
+.container2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    row-gap: 20px;
+    column-gap:100px;
+    font-size: 30px;
+    margin: 50px 50px 0px 50px;
+    padding: 20px;
+    
+   /* display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    justify-content: space-around;
+    margin-top: 50px;*/
+}
+ul{
+    padding: 40px;
+    word-spacing: 10px;
+    line-height: 50px;
+    border: 2px solid black;
+}
+.cont2_img{
+    padding: 20px;
+    margin: 0px;
+    border: 2px solid white;
+    border-radius: 50px;
+    width:1160px;
+     height:600px;
+}
+.cont2_btn{
+    height: 100px;
+    width: 300px;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 450px;
+    border: 2px solid red;
+    border-radius: 50px;
+}
+/*.container3 */
+.cont3_heading{
+    margin-left: 1200px;
+    margin-top: 30px;
+    font-size: 70px;
+}
+.cont3_para{
+    border: 2px solid black;
+    padding-left: 150px;
+    padding-top: 50px;
+    color: white;
+    background-color: red;
+    width: 300px;
+    height: 50px;
+
+}
+.cont3_para_div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 350px;
+    padding:30px ;
+    width: fit-content;
+}
+.container4{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    background-color: black;
+    margin-top: 50px;
+    color: white;
+    padding: 100px;
+}
+.cont4_para{
+    font-size: 30px;
+    border: none;
+    margin: 30px;
+    padding: 20px;
+    line-height: 50px;
+}
+.cont4_heading{
+    font-size: 40px;
+    color: red;
+}
